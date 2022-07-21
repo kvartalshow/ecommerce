@@ -33,10 +33,10 @@ img {
 
 .main__image-promo {
   position: absolute;
-  width: 360px;
+  width: 260px;
   height: 82px;
-  left: 60px;
-  bottom: 29px;
+  left: 110px;
+  bottom: 20px;
   background: #ffffff;
   opacity: 0.8;
   display: flex;
@@ -75,6 +75,10 @@ img {
   align-items: center;
 }
 
+.flag{
+  width: 20px;
+}
+
 .icons__adv{
   width: 160px;
 }
@@ -90,11 +94,16 @@ img {
 }
 
 .main__price.window{
-  background: white;
+  background: none;
 }
 
 .old-price-wrap {
   margin-right: 43px;
+}
+
+.block-2{
+  font-family: "Fira Sans", sans-serif;
+  padding: 10px 16px;
 }
 
 .old-price-wrap__text {
@@ -174,14 +183,13 @@ img {
   font-weight: 900;
   font-size: 64px;
   line-height: 77px;
-  text-align: center;
   letter-spacing: 0.15em;
   color: #0c0c0c;
 }
 
 .button {
   position: relative;
-  height: 64px;
+  height: 84px;
   display: flex;
   justify-content: center;
   margin-bottom: 14px;
@@ -209,7 +217,7 @@ img {
 .button-req {
   margin: 0 auto;
   width: 381px;
-  height: 60px;
+  height: 80px;
   position: absolute;
   display: flex;
   justify-content: center;
@@ -284,7 +292,6 @@ img {
   font-family: "Merriweather", serif;
   text-align: left;
   padding: 16px;
-  margin-top: -6px;
   background: url(/img/rep-bg-alcamntara-sweatshirt.etalook.png);
   background-size: contain;
 }
@@ -388,6 +395,14 @@ img {
 video.back_video {
   min-width: 100%;
   height: auto;
+}
+
+.video_block{
+  overflow: hidden;
+}
+
+.video_block_inner{
+  margin-right: -1px;
 }
 
 .wp-tab {
@@ -588,7 +603,7 @@ video.back_video {
 
 .block-5 {
   background: #f0f0f0;
-  margin: 10px 0 5px 0 ;
+  margin: 0 ;
 }
 
 .block-6 {
@@ -696,23 +711,26 @@ video.back_video {
   width: 137px;
   height: 149px;
   margin: 0 auto 15px;
-  background: url(../img/deliv-icon-sweatshirt.etalook.png) no-repeat;
 }
 
 .block-9 .deliv > li:nth-child(1):before {
-  background-position: 0 0;
+  background: url(../img/icons/note.png) no-repeat;
+  background-size: contain;
 }
 
 .block-9 .deliv > li:nth-child(2):before {
-  background-position: -137px 0;
+  background: url(../img/icons/phone.png) no-repeat;
+  background-size: contain;
 }
 
 .block-9 .deliv > li:nth-child(3):before {
-  background-position: -274px 0;
+  background: url(../img/icons/deliv.png) no-repeat;
+  background-size: contain;
 }
 
 .block-9 .deliv > li:nth-child(4):before {
-  background-position: -411px 0;
+  background: url(../img/icons/wallet.png) no-repeat;
+  background-size: contain;
 }
 
 .block-10 .rev-slider {
@@ -845,6 +863,13 @@ video.back_video {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.feed-image img{
+  border-radius: 100%;
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
 }
 
 .feed-from {

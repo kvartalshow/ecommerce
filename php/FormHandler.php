@@ -52,7 +52,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name']) && isset($_PO
 
 $order_details = array (
         'title'               => 'Нове замовлення',
-        'source_id'         => 21,
+        'source_id'         => 31,
         'client_attributes'   => array (
             'person'            => $_POST['name'],
             'status_id'         => 28,
@@ -64,11 +64,11 @@ $order_details = array (
         'jobs_attributes' => array (
             0 => array(
                 'amount'              => 1,
-                'title'               => 'Свитшоты',
+                'title'               => 'Джогери чоловічі KOPO - 749 грн.',
                 'product_attributes'  => array (
                     'sku'               => 123,
-                    'title'             => 'Свитшоты',
-                    'price'             => 689
+                    'title'             => 'Джогери чоловічі KOPO - 749 грн.',
+                    'price'             => 749
                 )
             )
         ),
